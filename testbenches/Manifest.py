@@ -4,6 +4,7 @@ files = [
     "controlunit_tb.vhd",
     "ram_tb.vhd",
     "regfile_tb.vhd",
+    "rom_tb.vhd",
     "shiftleft2_tb.vhd",
     "signextend_tb.vhd",
     "utils.vhd",
