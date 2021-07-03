@@ -1,0 +1,7 @@
+*.vcd
+*.ghw
+*.gtkw
+*.cf
+
+Makefile
+work/

@@ -5,4 +5,5 @@ files = [
     "datapath.vhd",
     "ram.vhd",
     "regfile.vhd",
+    "shiftleft2.vhd",
 ]

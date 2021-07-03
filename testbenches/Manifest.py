@@ -4,8 +4,10 @@ files = [
     "controlunit_tb.vhd",
     "ram_tb.vhd",
     "regfile_tb.vhd",
+    "shiftleft2_tb.vhd",
+    "utils.vhd",
 ]
 
 modules = {
-    "local" : [ "../../../modules/" ],
+    "local" : [ "../modules/" ],
 }
