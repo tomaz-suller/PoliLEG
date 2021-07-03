@@ -1,6 +1,6 @@
 entity signExtend is
     port(
-        i: in  bit_vector(31 downto 0); 
+        i: in  bit_vector(31 downto 0);
         o: out bit_vector(63 downto 0)
     );
 end signExtend;
@@ -14,7 +14,7 @@ begin
     cbzToExtend <= i(23 downto 5);
     bToExtend <= i(25 downto 0);
 
-    o <= 
+    o <=
         (37 downto 0 => bToExtend(25)) & bToExtend
             when i(31) = '0' else
         (44 downto 0 => cbzToExtend(18)) & cbzToExtend
@@ -22,4 +22,3 @@ begin
         (54 downto 0 => dFormatToExtend(8)) & dFormatToExtend;
 
 end architecture combinational;
-

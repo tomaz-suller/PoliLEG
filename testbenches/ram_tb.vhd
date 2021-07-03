@@ -1,4 +1,4 @@
-entity ram_tb is 
+entity ram_tb is
 end entity;
 
 architecture arch of ram_tb is
@@ -31,7 +31,7 @@ architecture arch of ram_tb is
     signal ck, wr: bit;
 
 begin
-    ck <= sim and (not ck) after CK_PERIOD; 
+    ck <= sim and (not ck) after CK_PERIOD;
 
     dut: ram
         generic map(

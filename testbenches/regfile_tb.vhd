@@ -3,7 +3,7 @@ use ieee.math_real.ceil;
 use ieee.math_real.log2;
 use ieee.numeric_bit.all;
 
-entity regfile_tb is 
+entity regfile_tb is
 end entity;
 
 architecture arch of regfile_tb is

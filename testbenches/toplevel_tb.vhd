@@ -1,4 +1,4 @@
-entity toplevel_tb is 
+entity toplevel_tb is
 end entity;
 
 architecture arch of toplevel_tb is

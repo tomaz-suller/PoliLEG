@@ -1,6 +1,6 @@
 use work.utils.all;
 
-entity Shiftleft2_tb is 
+entity Shiftleft2_tb is
 end entity;
 
 architecture arch of Shiftleft2_tb is
@@ -13,7 +13,7 @@ architecture arch of Shiftleft2_tb is
     end component Shiftleft2;
 
 
-    type test_case_type is record 
+    type test_case_type is record
         stimulus: bit_vector(63 downto 0);
         response: bit_vector(63 downto 0);
     end record;

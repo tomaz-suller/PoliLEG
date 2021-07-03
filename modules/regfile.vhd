@@ -46,7 +46,7 @@ architecture combinatorial of decoder is
 begin
     index <= to_integer(unsigned(in_bv));
     dec: for i in (2**inputSizeInBits)-1 downto 0 generate
-        out_bv(i) <= '1' when index = i else '0'; 
+        out_bv(i) <= '1' when index = i else '0';
     end generate;
 end architecture;
 ---------------------------------------------------------------

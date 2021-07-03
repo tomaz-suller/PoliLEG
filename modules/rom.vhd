@@ -22,7 +22,7 @@ architecture arch of rom is
 
   type mem_type is array(0 to 2**ALIGNED_MEM_WIDTH-1)
     of bit_vector(word_size-1 downto 0);
-  
+
   impure function fread(fname: in string) return mem_type is
     file f: text open read_mode is fname;
     variable l: line;
@@ -37,12 +37,12 @@ architecture arch of rom is
       tmp_mem(i) := tmp_bv;
       i := i + 1;
     end loop;
-    
+
     while i <= 2**ALIGNED_MEM_WIDTH-1 loop
       tmp_mem(i) := bit_vector(to_unsigned(0, word_size));
       i := i + 1;
     end loop;
-    
+
     return tmp_mem;
   end;
 

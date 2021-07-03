@@ -2,7 +2,7 @@ library ieee;
 use ieee.numeric_std.std_match;
 use ieee.std_logic_1164.all;
 
-entity controlunit_tb is 
+entity controlunit_tb is
 end entity;
 
 architecture arch of controlunit_tb is
@@ -33,7 +33,7 @@ architecture arch of controlunit_tb is
         sl_str_v := std_logic'image(sl);
         return "" & sl_str_v(2);  -- "" & character to get string
       end function;
-      
+
       function to_bstring(slv : std_logic_vector) return string is
         alias    slv_norm : std_logic_vector(1 to slv'length) is slv;
         variable sl_str_v : string(1 to 1);  -- String of std_logic
@@ -64,14 +64,14 @@ architecture arch of controlunit_tb is
         );
     end component;
 
-    type test_case_type is record 
+    type test_case_type is record
         stimulus: std_logic_vector(10 downto 0);
         response: std_logic_vector(9 downto 0);
     end record;
     type test_case_array is array(1 to 5) of test_case_type;
     constant TEST_CASES: test_case_array := (
         ( -- LDUR
-            "11111000010", 
+            "11111000010",
             "-001100011"),
         ( -- STUR
             "11111000000",

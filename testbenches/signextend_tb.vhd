@@ -1,4 +1,4 @@
-entity signExtend_tb is 
+entity signExtend_tb is
 end entity;
 
 architecture arch of signExtend_tb is
@@ -26,19 +26,19 @@ architecture arch of signExtend_tb is
 
     component signExtend is
         port(
-            i: in  bit_vector(31 downto 0); 
+            i: in  bit_vector(31 downto 0);
             o: out bit_vector(63 downto 0)
         );
     end component;
 
-    type test_case_type is record 
+    type test_case_type is record
         stimulus: bit_vector(31 downto 0);
         response: bit_vector(63 downto 0);
     end record;
     type test_case_array is array(0 to 7) of test_case_type;
     constant TEST_CASES: test_case_array := (
         ( -- LDUR
-            B"11111000010_000000001_00_00000_00000", 
+            B"11111000010_000000001_00_00000_00000",
             B"0000000000000000000000000000000000000000000000000000000_000000001"),
         ( -- LDUR
             B"11111000010_100000001_00_00000_00000",
@@ -79,7 +79,7 @@ begin
             i <= TEST_CASES(index).stimulus;
             wait for 1 ps;
             expected := TEST_CASES(index).response;
-            assert expected = o 
+            assert expected = o
                 report "Teste "& integer'image(index) & " falhou"&
                     "Esperava "& to_bstring(expected) &
                     "mas recebeu "& to_bstring(o)
