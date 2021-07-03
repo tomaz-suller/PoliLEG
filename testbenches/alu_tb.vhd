@@ -1,5 +1,3 @@
--- TODO fix cases of op 1100
--- TODO fix cases of op 0111 (still with SLT values, except for the first)
 entity alu_tb is 
 end entity;
 
