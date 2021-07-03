@@ -8,7 +8,8 @@ architecture arch of rom_tb is
     component rom is
         generic(
             mem_width_in_bits: natural := 64;
-            word_size: natural := 64;
+            word_size: natural := 32;
+            mem_word_size: natural := 8;
             init_file: string := "../software/rom.dat"
         );
         port(
@@ -17,8 +18,9 @@ architecture arch of rom_tb is
         );
     end component;
 
-    constant MEM_WIDTH_IN_BITS: natural := 10;
+    constant MEM_WIDTH_IN_BITS: natural := 6;
     constant WORD_SIZE: natural := 32;
+    constant MEMORY_WORD_SIZE: natural := 8;
     constant INITIAL_FILENAME: string := "../software/rom.dat";
 
     type test_case_type is record 
@@ -27,10 +29,10 @@ architecture arch of rom_tb is
     end record;
     type test_case_array is array(1 to 4) of test_case_type;
     constant TEST_CASES: test_case_array := (
-        ("0000000000", "11111000010000000000001111100001"),
-        ("0000000100", "11111000010000001000001111100010"),
-        ("0000001000", "11111000010000010000001111100011"),
-        ("0000001100", "11001011000000110000000001000100")
+        ("000000", "11111000010000000000001111100001"),
+        ("000100", "11111000010000001000001111100010"),
+        ("001000", "11111000010000010000001111100011"),
+        ("001100", "11001011000000110000000001000100")
     );
 
     signal addr: bit_vector(MEM_WIDTH_IN_BITS-1 downto 0);
@@ -42,6 +44,7 @@ begin
         generic map(
             MEM_WIDTH_IN_BITS,
             WORD_SIZE,
+            MEMORY_WORD_SIZE,
             INITIAL_FILENAME
         )
         port map(

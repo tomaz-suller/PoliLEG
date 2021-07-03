@@ -7,6 +7,7 @@ architecture arch of ram_tb is
         generic(
             mem_width_in_bits: natural := 64;
             word_size: natural := 64;
+            mem_word_size: natural := 8;
             init_file: string := "../software/ram.dat"
         );
         port(
@@ -19,6 +20,7 @@ architecture arch of ram_tb is
 
     constant MEM_WIDTH_IN_BITS: natural := 11;
     constant WORD_SIZE: natural := 64;
+    constant MEMORY_WORD_SIZE: natural := 8;
     constant INITIAL_FILENAME: string := "../software/ram.dat";
 
     signal addr: bit_vector(MEM_WIDTH_IN_BITS-1 downto 0);
@@ -35,6 +37,7 @@ begin
         generic map(
             MEM_WIDTH_IN_BITS,
             WORD_SIZE,
+            MEMORY_WORD_SIZE,
             INITIAL_FILENAME
         )
         port map(

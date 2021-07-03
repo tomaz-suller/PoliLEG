@@ -1,9 +1,9 @@
 action = "simulation"
 sim_tool = "ghdl"
-top_module = "toplevel_tb"
+top_module = "rom" + "_tb"
 
 sim_cmd = "ghdl -r " + top_module
-use_large_simulation = True
+use_large_simulation = False
 open_gtkwave = False
 use_gtkwave_config = False
 
