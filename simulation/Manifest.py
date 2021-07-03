@@ -1,18 +1,22 @@
 action = "simulation"
 sim_tool = "ghdl"
-top_module = "rom_tb"
+top_module = "toplevel_tb"
 
+sim_cmd = "ghdl -r " + top_module
+use_large_simulation = True
 open_gtkwave = False
 use_gtkwave_config = False
 
-cmd = "ghdl -r " + top_module
+if use_large_simulation:
+    sim_cmd += " --max-stack-alloc=0"
+
 if open_gtkwave:
-    cmd += " --wave=wave.ghw\n\t\tgtkwave wave.ghw"
+    sim_cmd += " --wave=wave.ghw\n\t\tgtkwave wave.ghw"
     if use_gtkwave_config:
-        cmd += " config.gtkw"
+        sim_cmd += " config.gtkw"
 
 sim_post_cmd = (
-    cmd
+    sim_cmd
 )
 
 modules = {

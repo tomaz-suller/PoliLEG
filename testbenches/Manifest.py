@@ -7,6 +7,7 @@ files = [
     "rom_tb.vhd",
     "shiftleft2_tb.vhd",
     "signextend_tb.vhd",
+    "toplevel_tb.vhd",
     "utils.vhd",
 ]
 
