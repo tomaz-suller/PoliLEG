@@ -6,4 +6,5 @@ files = [
     "ram.vhd",
     "regfile.vhd",
     "shiftleft2.vhd",
+    "signextend.vhd",
 ]

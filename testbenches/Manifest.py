@@ -5,6 +5,7 @@ files = [
     "ram_tb.vhd",
     "regfile_tb.vhd",
     "shiftleft2_tb.vhd",
+    "signextend_tb.vhd",
     "utils.vhd",
 ]
 
