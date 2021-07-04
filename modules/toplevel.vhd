@@ -24,7 +24,7 @@ architecture arch of toplevel is
             mem_width_in_bits: natural := 64;
             word_size: natural := 64;
             mem_word_size: natural := 8;
-            init_file: string := "../software/ram.dat"
+            init_file: string := "../software/gcd/ram.dat"
         );
         port(
             ck, wr : in  bit;
@@ -39,7 +39,7 @@ architecture arch of toplevel is
             mem_width_in_bits: natural := 64;
             word_size: natural := 32;
             mem_word_size: natural := 8;
-            init_file: string := "../software/rom.dat"
+            init_file: string := "../software/gcd/rom.dat"
         );
         port(
             addr   : in  bit_vector(mem_width_in_bits-1 downto 0);
@@ -52,8 +52,8 @@ architecture arch of toplevel is
     constant DATA_WORD_SIZE: natural := 64;
     constant INSTRUCTION_WORD_SIZE: natural := 32;
     constant MEMORY_WORD_SIZE: natural := 8;
-    constant RAM_DAT_FILE: string := "../software/ram.dat";
-    constant ROM_DAT_FILE: string := "../software/rom.dat";
+    constant RAM_DAT_FILE: string := "../software/gcd/ram.dat";
+    constant ROM_DAT_FILE: string := "../software/gcd/rom.dat";
 
     -- Data Memory
     signal dmem_addr, dmem_dati: bit_vector(63 downto 0);

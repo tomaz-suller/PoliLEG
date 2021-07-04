@@ -8,7 +8,7 @@ entity rom is
     mem_width_in_bits: natural := 64;
     word_size: natural := 32;
     mem_word_size: natural := 8;
-    init_file: string := "../software/rom.dat"
+    init_file: string := "../software/gcd/rom.dat"
   );
   port(
     addr   : in  bit_vector(mem_width_in_bits-1 downto 0);

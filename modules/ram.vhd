@@ -8,7 +8,7 @@ entity ram is
     mem_width_in_bits: natural := 64;
     word_size: natural := 64;
     mem_word_size: natural := 8;
-    init_file: string := "../software/ram.dat"
+    init_file: string := "../software/gcd/ram.dat"
   );
   port(
     ck, wr : in  bit;
