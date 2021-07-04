@@ -52,8 +52,13 @@ architecture arch of toplevel is
     constant DATA_WORD_SIZE: natural := 64;
     constant INSTRUCTION_WORD_SIZE: natural := 32;
     constant MEMORY_WORD_SIZE: natural := 8;
-    constant RAM_DAT_FILE: string := "../software/gcd/ram.dat";
-    constant ROM_DAT_FILE: string := "../software/gcd/rom.dat";
+
+    constant DAT_BASE_PATH: string := "../software/";
+    constant FOLDER: string := "fibonacci/";
+    constant RAM_DAT_FILE: string := DAT_BASE_PATH & FOLDER &
+        "ram.dat";
+    constant ROM_DAT_FILE: string := DAT_BASE_PATH & FOLDER &
+        "rom.dat";
 
     -- Data Memory
     signal dmem_addr, dmem_dati: bit_vector(63 downto 0);

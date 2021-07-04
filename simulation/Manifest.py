@@ -5,7 +5,7 @@ top_module = "toplevel" + "_tb"
 sim_cmd = "ghdl -r " + top_module
 use_large_simulation = True
 open_gtkwave = True
-use_gtkwave_config = True
+use_gtkwave_config = False
 
 if use_large_simulation:
     sim_cmd += " --max-stack-alloc=0"
