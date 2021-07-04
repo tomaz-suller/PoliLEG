@@ -1,11 +1,11 @@
 action = "simulation"
 sim_tool = "ghdl"
-top_module = "rom" + "_tb"
+top_module = "toplevel" + "_tb"
 
 sim_cmd = "ghdl -r " + top_module
-use_large_simulation = False
-open_gtkwave = False
-use_gtkwave_config = False
+use_large_simulation = True
+open_gtkwave = True
+use_gtkwave_config = True
 
 if use_large_simulation:
     sim_cmd += " --max-stack-alloc=0"

@@ -47,7 +47,8 @@ architecture arch of toplevel is
         );
     end component;
 
-    constant MEM_WIDTH: natural := 64;
+    constant PROCESSOR_MEM_WIDTH: natural := 64;
+    constant PHYSICAL_MEM_WIDTH: natural := 11;
     constant DATA_WORD_SIZE: natural := 64;
     constant INSTRUCTION_WORD_SIZE: natural := 32;
     constant MEMORY_WORD_SIZE: natural := 8;
@@ -62,6 +63,9 @@ architecture arch of toplevel is
     signal imem_addr: bit_vector(63 downto 0);
     signal imem_data: bit_vector(31 downto 0);
 
+    signal actual_dmem_addr, actual_imem_addr:
+        bit_vector(PHYSICAL_MEM_WIDTH-1 downto 0);
+
 begin
 
     processor: polilegsc port map(
@@ -74,10 +78,10 @@ begin
         imem_data
     );
 
-    -- TODO instantiate smaller memory for testing
+    actual_dmem_addr <= dmem_addr(PHYSICAL_MEM_WIDTH-1 downto 0);
     dataMemory: ram
         generic map(
-            MEM_WIDTH,
+            PHYSICAL_MEM_WIDTH,
             DATA_WORD_SIZE,
             MEMORY_WORD_SIZE,
             RAM_DAT_FILE
@@ -85,21 +89,21 @@ begin
         port map(
             clock,
             dmem_we,
-            dmem_addr,
+            actual_dmem_addr,
             dmem_dati,
             dmem_dato
         );
-    
-    -- TODO instantiate smaller memory for testing
+
+    actual_imem_addr <= imem_addr(PHYSICAL_MEM_WIDTH-1 downto 0);
     instructionMemory: rom
         generic map(
-            MEM_WIDTH,
+            PHYSICAL_MEM_WIDTH,
             INSTRUCTION_WORD_SIZE,
             MEMORY_WORD_SIZE,
             ROM_DAT_FILE
         )
         port map(
-            imem_addr,
+            actual_imem_addr,
             imem_data
         );
 
