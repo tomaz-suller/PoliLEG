@@ -22,7 +22,7 @@ begin
         report "BOT";
         sim <= '1';
 
-        wait for 50*CK_PERIOD;
+        wait for 120*CK_PERIOD;
 
         report "EOT";
         sim <= '0';
