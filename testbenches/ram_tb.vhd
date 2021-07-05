@@ -8,7 +8,7 @@ architecture arch of ram_tb is
             mem_width_in_bits: natural := 64;
             word_size: natural := 64;
             mem_word_size: natural := 8;
-            init_file: string := "../software/ram.dat"
+            init_file: string := "../software/gcd/ram.dat"
         );
         port(
             ck, wr : in  bit;
@@ -21,7 +21,7 @@ architecture arch of ram_tb is
     constant MEM_WIDTH_IN_BITS: natural := 11;
     constant WORD_SIZE: natural := 64;
     constant MEMORY_WORD_SIZE: natural := 8;
-    constant INITIAL_FILENAME: string := "../software/ram.dat";
+    constant INITIAL_FILENAME: string := "../software/gcd/ram.dat";
 
     signal addr: bit_vector(MEM_WIDTH_IN_BITS-1 downto 0);
     signal data_i, data_o: bit_vector(WORD_SIZE-1 downto 0);

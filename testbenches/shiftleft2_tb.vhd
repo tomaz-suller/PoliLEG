@@ -54,11 +54,10 @@ begin
         report "BOT";
 
         for index in TEST_CASES'range loop
-            report integer'image(index);
             i <= TEST_CASES(index).stimulus;
             wait for 1 ps;
             expected := TEST_CASES(index).response;
-            assertEquals(expected, o);
+            assert_equals(expected, o, index);
         end loop;
 
         report "EOT";

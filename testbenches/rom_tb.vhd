@@ -1,6 +1,6 @@
 use work.utils.all;
 
-entity rom_tb is 
+entity rom_tb is
 end entity;
 
 architecture arch of rom_tb is
@@ -10,7 +10,7 @@ architecture arch of rom_tb is
             mem_width_in_bits: natural := 64;
             word_size: natural := 32;
             mem_word_size: natural := 8;
-            init_file: string := "../software/rom.dat"
+            init_file: string := "../software/gcd/rom.dat"
         );
         port(
             addr   : in  bit_vector(mem_width_in_bits-1 downto 0);
@@ -21,9 +21,9 @@ architecture arch of rom_tb is
     constant MEM_WIDTH_IN_BITS: natural := 6;
     constant WORD_SIZE: natural := 32;
     constant MEMORY_WORD_SIZE: natural := 8;
-    constant INITIAL_FILENAME: string := "../software/rom.dat";
+    constant INITIAL_FILENAME: string := "../software/gcd/rom.dat";
 
-    type test_case_type is record 
+    type test_case_type is record
         stimulus: bit_vector(MEM_WIDTH_IN_BITS-1 downto 0);
         response: bit_vector(WORD_SIZE-1 downto 0);
     end record;
@@ -57,11 +57,10 @@ begin
     begin
         report "BOT";
         for index in TEST_CASES'range loop
-            report integer'image(index);
             addr <= TEST_CASES(index).stimulus;
             wait for 1 ps;
             expected := TEST_CASES(index).response;
-            assertEquals(expected, data_o);
+            assert_equals(expected, data_o, index);
         end loop;
 
         report "EOT";
