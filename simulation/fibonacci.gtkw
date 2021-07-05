@@ -1,0 +1,182 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Sun Jul  4 23:50:55 2021
+[*]
+[dumpfile] "/home/tomaz/git/Poli/sd2/trabalho/3/polileg/simulation/wave.ghw"
+[dumpfile_mtime] "Sun Jul  4 23:48:16 2021"
+[dumpfile_size] 255143
+[savefile] "/home/tomaz/git/Poli/sd2/trabalho/3/polileg/simulation/fibonacci.gtkw"
+[timestart] 0
+[size] 950 493
+[pos] -1 -1
+*-24.366358 21600000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.toplevel_tb.
+[treeopen] top.toplevel_tb.dut.
+[treeopen] top.toplevel_tb.dut.datamemory.
+[treeopen] top.toplevel_tb.dut.processor.
+[treeopen] top.toplevel_tb.dut.processor.dp.
+[treeopen] top.toplevel_tb.dut.processor.dp.registers.
+[treeopen] top.toplevel_tb.dut.processor.dp.registers.regbank[0].
+[treeopen] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.
+[treeopen] top.toplevel_tb.dut.processor.dp.registers.regbank[1].
+[treeopen] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.
+[treeopen] top.toplevel_tb.dut.processor.dp.registers.regbank[2].
+[treeopen] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.
+[treeopen] top.toplevel_tb.dut.processor.dp.registers.regbank[3].
+[treeopen] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.
+[treeopen] top.toplevel_tb.dut.processor.dp.registers.regbank[4].
+[treeopen] top.toplevel_tb.dut.processor.dp.registers.regbank[4].xi.
+[treeopen] top.toplevel_tb.dut.processor.dp.registers.regbank[5].
+[treeopen] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.
+[treeopen] top.toplevel_tb.dut.processor.dp.registers.regbank[6].
+[treeopen] top.toplevel_tb.dut.processor.dp.registers.regbank[6].xi.
+[sst_width] 232
+[signals_width] 204
+[sst_expanded] 1
+[sst_vpaned_height] 191
+@28
+[color] 1
+top.toplevel_tb.clock
+@c00022
+[color] 2
++{pc} #{top.toplevel_tb.dut.processor.dp.pc.internaldata[63:0]} top.toplevel_tb.dut.processor.dp.pc.internaldata[63] top.toplevel_tb.dut.processor.dp.pc.internaldata[62] top.toplevel_tb.dut.processor.dp.pc.internaldata[61] top.toplevel_tb.dut.processor.dp.pc.internaldata[60] top.toplevel_tb.dut.processor.dp.pc.internaldata[59] top.toplevel_tb.dut.processor.dp.pc.internaldata[58] top.toplevel_tb.dut.processor.dp.pc.internaldata[57] top.toplevel_tb.dut.processor.dp.pc.internaldata[56] top.toplevel_tb.dut.processor.dp.pc.internaldata[55] top.toplevel_tb.dut.processor.dp.pc.internaldata[54] top.toplevel_tb.dut.processor.dp.pc.internaldata[53] top.toplevel_tb.dut.processor.dp.pc.internaldata[52] top.toplevel_tb.dut.processor.dp.pc.internaldata[51] top.toplevel_tb.dut.processor.dp.pc.internaldata[50] top.toplevel_tb.dut.processor.dp.pc.internaldata[49] top.toplevel_tb.dut.processor.dp.pc.internaldata[48] top.toplevel_tb.dut.processor.dp.pc.internaldata[47] top.toplevel_tb.dut.processor.dp.pc.internaldata[46] top.toplevel_tb.dut.processor.dp.pc.internaldata[45] top.toplevel_tb.dut.processor.dp.pc.internaldata[44] top.toplevel_tb.dut.processor.dp.pc.internaldata[43] top.toplevel_tb.dut.processor.dp.pc.internaldata[42] top.toplevel_tb.dut.processor.dp.pc.internaldata[41] top.toplevel_tb.dut.processor.dp.pc.internaldata[40] top.toplevel_tb.dut.processor.dp.pc.internaldata[39] top.toplevel_tb.dut.processor.dp.pc.internaldata[38] top.toplevel_tb.dut.processor.dp.pc.internaldata[37] top.toplevel_tb.dut.processor.dp.pc.internaldata[36] top.toplevel_tb.dut.processor.dp.pc.internaldata[35] top.toplevel_tb.dut.processor.dp.pc.internaldata[34] top.toplevel_tb.dut.processor.dp.pc.internaldata[33] top.toplevel_tb.dut.processor.dp.pc.internaldata[32] top.toplevel_tb.dut.processor.dp.pc.internaldata[31] top.toplevel_tb.dut.processor.dp.pc.internaldata[30] top.toplevel_tb.dut.processor.dp.pc.internaldata[29] top.toplevel_tb.dut.processor.dp.pc.internaldata[28] top.toplevel_tb.dut.processor.dp.pc.internaldata[27] top.toplevel_tb.dut.processor.dp.pc.internaldata[26] top.toplevel_tb.dut.processor.dp.pc.internaldata[25] top.toplevel_tb.dut.processor.dp.pc.internaldata[24] top.toplevel_tb.dut.processor.dp.pc.internaldata[23] top.toplevel_tb.dut.processor.dp.pc.internaldata[22] top.toplevel_tb.dut.processor.dp.pc.internaldata[21] top.toplevel_tb.dut.processor.dp.pc.internaldata[20] top.toplevel_tb.dut.processor.dp.pc.internaldata[19] top.toplevel_tb.dut.processor.dp.pc.internaldata[18] top.toplevel_tb.dut.processor.dp.pc.internaldata[17] top.toplevel_tb.dut.processor.dp.pc.internaldata[16] top.toplevel_tb.dut.processor.dp.pc.internaldata[15] top.toplevel_tb.dut.processor.dp.pc.internaldata[14] top.toplevel_tb.dut.processor.dp.pc.internaldata[13] top.toplevel_tb.dut.processor.dp.pc.internaldata[12] top.toplevel_tb.dut.processor.dp.pc.internaldata[11] top.toplevel_tb.dut.processor.dp.pc.internaldata[10] top.toplevel_tb.dut.processor.dp.pc.internaldata[9] top.toplevel_tb.dut.processor.dp.pc.internaldata[8] top.toplevel_tb.dut.processor.dp.pc.internaldata[7] top.toplevel_tb.dut.processor.dp.pc.internaldata[6] top.toplevel_tb.dut.processor.dp.pc.internaldata[5] top.toplevel_tb.dut.processor.dp.pc.internaldata[4] top.toplevel_tb.dut.processor.dp.pc.internaldata[3] top.toplevel_tb.dut.processor.dp.pc.internaldata[2] top.toplevel_tb.dut.processor.dp.pc.internaldata[1] top.toplevel_tb.dut.processor.dp.pc.internaldata[0]
+@28
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[63]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[62]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[61]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[60]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[59]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[58]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[57]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[56]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[55]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[54]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[53]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[52]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[51]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[50]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[49]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[48]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[47]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[46]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[45]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[44]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[43]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[42]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[41]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[40]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[39]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[38]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[37]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[36]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[35]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[34]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[33]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[32]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[31]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[30]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[29]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[28]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[27]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[26]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[25]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[24]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[23]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[22]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[21]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[20]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[19]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[18]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[17]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[16]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[15]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[14]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[13]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[12]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[11]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[10]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[9]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[8]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[7]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[6]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[5]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[4]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[3]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[2]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[1]
+[color] 2
+top.toplevel_tb.dut.processor.dp.pc.internaldata[0]
+@1401200
+-group_end
+@24
++{x0 (f0)} #{top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[63:0]} top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[63] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[62] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[61] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[60] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[59] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[58] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[57] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[56] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[55] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[54] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[53] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[52] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[51] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[50] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[49] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[48] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[47] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[46] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[45] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[44] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[43] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[42] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[41] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[40] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[39] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[38] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[37] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[36] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[35] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[34] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[33] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[32] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[31] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[30] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[29] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[28] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[27] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[26] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[25] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[24] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[23] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[22] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[21] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[20] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[19] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[18] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[17] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[16] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[15] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[14] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[13] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[12] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[11] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[10] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[9] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[8] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[7] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[6] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[5] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[4] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[3] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[2] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[1] top.toplevel_tb.dut.processor.dp.registers.regbank[0].xi.internaldata[0]
++{x1 (f1)} #{top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[63:0]} top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[63] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[62] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[61] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[60] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[59] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[58] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[57] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[56] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[55] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[54] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[53] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[52] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[51] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[50] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[49] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[48] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[47] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[46] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[45] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[44] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[43] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[42] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[41] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[40] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[39] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[38] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[37] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[36] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[35] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[34] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[33] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[32] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[31] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[30] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[29] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[28] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[27] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[26] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[25] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[24] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[23] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[22] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[21] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[20] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[19] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[18] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[17] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[16] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[15] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[14] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[13] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[12] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[11] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[10] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[9] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[8] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[7] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[6] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[5] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[4] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[3] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[2] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[1] top.toplevel_tb.dut.processor.dp.registers.regbank[1].xi.internaldata[0]
++{x2 (n)} #{top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[63:0]} top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[63] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[62] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[61] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[60] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[59] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[58] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[57] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[56] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[55] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[54] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[53] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[52] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[51] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[50] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[49] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[48] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[47] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[46] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[45] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[44] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[43] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[42] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[41] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[40] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[39] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[38] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[37] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[36] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[35] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[34] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[33] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[32] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[31] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[30] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[29] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[28] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[27] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[26] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[25] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[24] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[23] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[22] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[21] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[20] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[19] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[18] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[17] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[16] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[15] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[14] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[13] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[12] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[11] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[10] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[9] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[8] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[7] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[6] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[5] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[4] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[3] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[2] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[1] top.toplevel_tb.dut.processor.dp.registers.regbank[2].xi.internaldata[0]
++{x3 (one)} #{top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[63:0]} top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[63] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[62] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[61] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[60] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[59] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[58] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[57] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[56] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[55] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[54] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[53] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[52] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[51] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[50] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[49] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[48] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[47] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[46] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[45] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[44] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[43] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[42] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[41] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[40] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[39] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[38] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[37] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[36] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[35] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[34] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[33] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[32] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[31] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[30] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[29] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[28] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[27] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[26] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[25] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[24] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[23] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[22] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[21] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[20] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[19] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[18] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[17] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[16] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[15] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[14] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[13] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[12] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[11] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[10] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[9] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[8] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[7] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[6] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[5] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[4] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[3] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[2] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[1] top.toplevel_tb.dut.processor.dp.registers.regbank[3].xi.internaldata[0]
++{x5 (f2)} #{top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[63:0]} top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[63] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[62] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[61] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[60] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[59] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[58] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[57] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[56] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[55] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[54] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[53] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[52] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[51] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[50] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[49] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[48] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[47] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[46] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[45] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[44] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[43] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[42] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[41] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[40] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[39] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[38] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[37] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[36] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[35] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[34] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[33] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[32] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[31] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[30] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[29] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[28] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[27] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[26] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[25] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[24] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[23] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[22] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[21] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[20] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[19] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[18] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[17] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[16] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[15] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[14] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[13] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[12] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[11] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[10] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[9] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[8] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[7] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[6] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[5] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[4] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[3] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[2] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[1] top.toplevel_tb.dut.processor.dp.registers.regbank[5].xi.internaldata[0]
+[pattern_trace] 1
+[pattern_trace] 0
