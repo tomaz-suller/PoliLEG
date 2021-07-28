@@ -38,7 +38,6 @@ begin
 	dut: alucontrol port map(aluop, opcode, response);
 
 	tb: process
-        variable expected: bit_vector(3 downto 0);
 	begin
 		report "BOT";
 
@@ -46,8 +45,7 @@ begin
             aluop <= TEST_CASES(index).aluop;
             opcode <= TEST_CASES(index).opcode;
             wait for 1 ps;
-            expected := TEST_CASES(index).response;
-            assert_equals(expected, response, index);
+            assert_equals(TEST_CASES(index).response, response, index);
         end loop;
 
 		report "EOT";

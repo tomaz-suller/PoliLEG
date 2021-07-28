@@ -1,3 +1,5 @@
+use work.utils.all;
+
 entity decoder_tb is
 end entity;
 
@@ -40,16 +42,12 @@ begin
         port map(x, y);
 
     tb: process
-        variable expected_response: bit_vector((2**INPUT_SIZE)-1 downto 0);
     begin
         report "BOT";
         for i in TEST_CASES'range loop
             x <= TEST_CASES(i).stimulus;
-            expected_response := TEST_CASES(i).response;
             wait for 1 ps;
-            assert y = expected_response
-                report "Test "&integer'image(i)&" failed."
-                severity warning;
+            assert_equals(TEST_CASES(i).response, y);
         end loop;
         report "EOT";
         wait;

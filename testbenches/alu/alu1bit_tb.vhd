@@ -63,7 +63,7 @@ begin
             a <= TEST_CASES(i).a;
             b <= TEST_CASES(i).b;
             wait for 1 ps;
-            assert_equals(""&TEST_CASES(i).result, ""&result);
+            assert_equals(""&TEST_CASES(i).result, ""&result, i);
         end loop;
         report "EOT";
         wait;

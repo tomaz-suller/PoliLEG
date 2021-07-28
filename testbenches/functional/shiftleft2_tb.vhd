@@ -49,15 +49,13 @@ begin
     dut: Shiftleft2 port map(i, o);
 
     tb: process
-        variable expected: bit_vector(63 downto 0);
     begin
         report "BOT";
 
         for index in TEST_CASES'range loop
             i <= TEST_CASES(index).stimulus;
             wait for 1 ps;
-            expected := TEST_CASES(index).response;
-            assert_equals(expected, o, index);
+            assert_equals(TEST_CASES(index).response, o, index);
         end loop;
 
         report "EOT";

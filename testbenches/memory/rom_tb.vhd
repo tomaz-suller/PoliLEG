@@ -53,14 +53,12 @@ begin
         );
 
     tb: process
-        variable expected: bit_vector(WORD_SIZE-1 downto 0);
     begin
         report "BOT";
         for index in TEST_CASES'range loop
             addr <= TEST_CASES(index).stimulus;
             wait for 1 ps;
-            expected := TEST_CASES(index).response;
-            assert_equals(expected, data_o, index);
+            assert_equals(TEST_CASES(index).response, data_o, index);
         end loop;
 
         report "EOT";

@@ -122,16 +122,14 @@ begin
         );
 
     tb: process
-        variable expected: bit_vector(INPUT_SIZE-1 downto 0);
     begin
         report "BOT";
         for i in TEST_CASES'range loop
             A <= TEST_CASES(i).A;
             B <= TEST_CASES(i).B;
             opcode <= TEST_CASES(i).op;
-            expected := TEST_CASES(i).response;
             wait for 1 ps;
-            assert_equals(expected, F, i);
+            assert_equals(TEST_CASES(i).response, F, i);
         end loop;
         report "EOT";
         wait;

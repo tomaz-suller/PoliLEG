@@ -42,7 +42,7 @@ begin
         for i in TEST_CASES'range loop
             x <= TEST_CASES(i).stimulus;
             wait for 1 ps;
-            assert_equals(TEST_CASES(i).response, y);
+            assert_equals(TEST_CASES(i).response, y, i);
         end loop;
         report "EOT";
         wait;

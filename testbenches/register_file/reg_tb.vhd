@@ -1,3 +1,5 @@
+use work.utils.all;
+
 entity reg_tb is
 end entity;
 
@@ -44,26 +46,26 @@ begin
         wr <= '1';
         wait for CLOCK_PERIOD;
         wr <= '0';
-        assert dataOut = "1010" report "Falhou na primeira escrita" severity warning;
+        assert_equals(bit_vector'("1010"), dataOut, 1);
 
         wait for CLOCK_PERIOD/4;
         reset <= '1';
         wait for 10 ps;
         reset <= '0';
-        assert dataOut = "0000" report "Falhou no reset" severity warning;
+        assert_equals(bit_vector'("0000"), dataOut, 2);
         wait for 1 ps;
 
         dataIn <= "0101";
         wr <= '1';
         wait for CLOCK_PERIOD;
         wr <= '0';
-        assert dataOut = "0101" report "Falhou na segunda escrita" severity warning;
+        assert_equals(bit_vector'("0101"), dataOut, 3);
 
         enable <= '0';
         dataIn <= "1111";
         wr <= '1';
         wait for CLOCK_PERIOD;
-        assert dataOut = "0101" report "Enable falhou" severity warning;
+        assert_equals(bit_vector'("0101"), dataOut, 4);
 
         simulate <= '0';
         report "EOT";

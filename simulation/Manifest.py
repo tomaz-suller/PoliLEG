@@ -1,11 +1,12 @@
 action = "simulation"
 sim_tool = "ghdl"
-top_module = "regfile" + "_tb"
+top_module = "toplevel" + "_tb"
 
 sim_cmd = "ghdl -r " + top_module
 use_large_simulation = True
-open_gtkwave = False
-use_gtkwave_config = False
+open_gtkwave = True
+use_gtkwave_config = True
+config_file = "fibonacci.gtkw"
 
 if use_large_simulation:
     sim_cmd += " --max-stack-alloc=0"
@@ -13,7 +14,10 @@ if use_large_simulation:
 if open_gtkwave:
     sim_cmd += " --wave=wave.ghw\n\t\tgtkwave wave.ghw"
     if use_gtkwave_config:
-        sim_cmd += " config.gtkw"
+        if config_file is None:
+            sim_cmd += " config.gtkw"
+        else:
+            sim_cmd += " "+config_file
 
 sim_post_cmd = (
     sim_cmd

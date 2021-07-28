@@ -68,15 +68,13 @@ begin
     );
 
 	tb: process
-        variable expected: std_logic_vector(9 downto 0);
 	begin
 		report "BOT";
 
         for index in TEST_CASES'range loop
             opcode <= to_bitvector(TEST_CASES(index).stimulus);
             wait for 1 ps;
-            expected := TEST_CASES(index).response;
-            assert_equals(expected, controlSignals, index);
+            assert_equals(TEST_CASES(index).response, controlSignals, index);
         end loop;
 
 		report "EOT";
