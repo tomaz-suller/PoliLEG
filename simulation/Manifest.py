@@ -1,6 +1,6 @@
 action = "simulation"
 sim_tool = "ghdl"
-top_module = "alu" + "_tb"
+top_module = "regfile" + "_tb"
 
 sim_cmd = "ghdl -r " + top_module
 use_large_simulation = True
