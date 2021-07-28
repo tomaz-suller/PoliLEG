@@ -20,5 +20,12 @@ sim_post_cmd = (
 )
 
 modules = {
-    "local" : [ "../testbenches"],
+    "local" : [
+        "../testbenches/",
+        "../testbenches/alu",
+        "../testbenches/control",
+        "../testbenches/functional",
+        "../testbenches/memory",
+        "../testbenches/register_file",
+    ],
 }
