@@ -66,7 +66,7 @@ package body utils is
         assert std_match(expected, received)
             report "Assertion failed. "&
                 "Expected "& to_string(expected) &" "&
-                "but got"& to_string(received)
+                "but got "& to_string(received)
             severity warning;
     end procedure;
 
@@ -96,7 +96,7 @@ package body utils is
         assert std_match(expected, received)
             report "Assertion "& integer'image(index) &"failed. "&
                 "Expected "& to_string(expected) &" "&
-                "but got"& to_string(received)
+                "but got "& to_string(received)
             severity warning;
     end procedure;
 
