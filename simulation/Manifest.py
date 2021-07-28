@@ -1,10 +1,10 @@
 action = "simulation"
 sim_tool = "ghdl"
-top_module = "toplevel" + "_tb"
+top_module = "alu" + "_tb"
 
 sim_cmd = "ghdl -r " + top_module
 use_large_simulation = True
-open_gtkwave = True
+open_gtkwave = False
 use_gtkwave_config = False
 
 if use_large_simulation:
