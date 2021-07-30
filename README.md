@@ -4,7 +4,7 @@
 
 Simplified, monocycle version of the LEGv8 processor designed
 by the Department of Computer and Digital Systems Engineering
-(PCS) at Escoal Politécnica da Universidade de São Paulo
+(PCS) at Escola Politécnica da Universidade de São Paulo
 (Poli-USP) and implemented in VHDL for Digital Systems II
 (PCS3225) in 2021.
 
@@ -29,7 +29,7 @@ cd simulation
 hdlmake makefile
 make
 ```
-The default options will run `fibonacci.dat` and automatically
+The default options will run `fibonacci` and automatically
 open GTKWave to show the generated waveform using the
 configuration file supplied (`fibonacci.gtkw`). This behaviour
 can be altered by editing `simulation/Manifest.py` and by then
@@ -40,7 +40,7 @@ recreating the `Makefile` as described previously.
 ### Running other software
 PoliLEG can only execute a small subset of the ARMv8
 instructions. Namely, it can only execute the following
-functions, with their respective opcodes and formats for
+functions, with their respective formats and opcodes for
 reference. More detailed information can be found in the Green
 Card of LEGv8.
 
@@ -57,9 +57,9 @@ ORR         | R         | 10101010000   |
 
 Therefore, any software must be specifically designed to only
 use these instructions. As this processor was developed for
-educational purposes, the supplied software (`fibonacci.dat`)
-and (`gcd.dat`) were handwritten in LEGv8 Assembly and then
-manually converted to machine code.
+educational purposes, the supplied software (`fibonacci` and
+`gcd`) were handwritten in LEGv8 Assembly and then manually 
+converted to machine code.
 
 ### Copying standalone components
 Any component is avaliable for use in other projects
@@ -86,9 +86,10 @@ Directories were set up according to hdlmake's example setup.
     calculator using Euclides' Algorithm (`gcd`) and a Fibonacci
     sequence generator (`fibonacci`) are supplied;
 * `testbenches`: testbenches for hardware descriptions following
-    the structure of `modules`. Note that all components have
-    testbenches with assertions except for `polilegcs`,
-    `datapath` and `toplevel`.
+    the directory structure of `modules`. Note that all 
+    components have testbenches with assertions (i.e.
+    automatically produce a pass or fail message on execution)
+    except for `polilegsc`, `datapath` and `toplevel`.
 
 ## References
 D. Patterson and J. Hennessy.
