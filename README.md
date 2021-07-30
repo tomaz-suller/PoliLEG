@@ -79,12 +79,12 @@ Directories were set up according to hdlmake's example setup.
 * `modules`: hardware descriptions of components used to build
     the processor, including a dummy toplevel implementation
     for testing purposes;
-* `simulation`: files related to simulation with GHDL (e.g.
-    hdlmake's `Makefile`, GTKWave configuration files);
+* `simulation`: files related to simulation with GHDL (
+    hdlmake's `Manifest.py` and GTKWave configuration files);
 * `software`: content of both the instruction memory
     (`rom.dat`) and the data memory (`ram.dat`). A GCD
     calculator using Euclides' Algorithm (`gcd`) and a Fibonacci
-    sequence generator (`fibonaccu`) are supplied;
+    sequence generator (`fibonacci`) are supplied;
 * `testbenches`: testbenches for hardware descriptions following
     the structure of `modules`. Note that all components have
     testbenches with assertions except for `polilegcs`,
