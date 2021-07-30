@@ -1,4 +1,6 @@
-# PoliLEG <img src="github/pcs.png" style="height: 1em; vertical-align: middle;" align="right" />
+# PoliLEG 
+
+<img src="github/pcs.png" style="height: 1em; vertical-align: middle;" align="right" />
 
 Simplified, monocycle version of the LEGv8 processor designed
 by the Department of Computer and Digital Systems Engineering
