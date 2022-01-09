@@ -12,16 +12,14 @@ if use_large_simulation:
     sim_cmd += " --max-stack-alloc=0"
 
 if open_gtkwave:
-    sim_cmd += " --wave=wave.ghw\n\t\tgtkwave wave.ghw"
+    sim_cmd += " --wave=wave.ghw; gtkwave wave.ghw"
     if use_gtkwave_config:
         if config_file is None:
             sim_cmd += " config.gtkw"
         else:
             sim_cmd += " "+config_file
 
-sim_post_cmd = (
-    sim_cmd
-)
+sim_post_cmd = sim_cmd
 
 modules = {
     "local" : [

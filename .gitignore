@@ -2,6 +2,7 @@
 *.ghw
 *.gtkw
 *.cf
+*.o
 
 Makefile
 work/
